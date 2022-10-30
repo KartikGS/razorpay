@@ -12,7 +12,7 @@ function App() {
 
 	const initPayment = (data) => {
 		const options = {
-			key: "YOUR_RAZORPAY_KEY",
+			key: "rzp_test_dP5K0BIAGCiv3v",
 			amount: data.amount,
 			currency: data.currency,
 			name: book.name,
